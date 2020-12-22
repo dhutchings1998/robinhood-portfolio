@@ -10,10 +10,10 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import math
 from scipy import stats
-
+import config
 
 # Log in to api
-#login = r.login(username="dhutchings1998@gmail.com", password="Potomac_123",store_session = True)
+login = r.login(username=config.username, password=config.password,store_session = True)
 
 
 ########### Cached Functions #############
